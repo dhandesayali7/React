@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"); */
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --light-grey: #eaecee;
+    --red: #f00;
+}
+
+body {
+    background-color: var(--light-grey);
+}
+
+.container, 
+.container-fluid {
+    background-color: var(--white);
+    border-bottom: 1px solid var(--black);
+}
+
+nav > .container, 
+nav > .container-fluid {
+    background-color: var(--black);
+    border-right: 1px solid var(--black);
+}
+
+.left__column {
+    background-color: var(--light-grey);
+    border-right: 1px solid var(--black);
+}
+
+.left__column .list__items {
+    line-height: 1.8em;
+    list-style-type: none;
+    text-indent: -30px;
+    text-align: right;
+    border-bottom: 1px solid var(--black);
+}
+
+.right__column {
+    margin: 0;
+    background-color: var(--white);
+}
+
+.navbar {
+    padding: 0;
+    background-color: var(--light-grey);
+    border-bottom: 1px solid var(--black);
+    height: 40px;
+}
+
+.navbar a.navlinks {
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0px 5px;
+    color: var(--black);
+}
+
+.navbar a.navlinks:hover {
+    color: var(--red);
+}
+
+.main__content {
+    background-color: var(--white);
+    line-height: 1.5em;
+}
