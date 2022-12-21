@@ -8,6 +8,10 @@ const Navigation = () => {
                 <NavLink className="navlinks" activeClassName exact = "true" to="/"> Home </NavLink>
                 
                 <NavLink className="navlinks" activeClassName to="/event-handlers"> Event Handlers </NavLink>
+
+                <NavLink className="navlinks" activeClassName to="/form-validation"> Form Validation </NavLink>
+
+                
             </div>
         </div>
     );

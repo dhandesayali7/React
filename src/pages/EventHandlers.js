@@ -26,9 +26,9 @@ class EventHandlers extends React.Component {
         this.setState({
             users: [
                 {userId: 4301, userName: "jo_o", userEmail: "jo_o@gmail.com", userStatus: "inactive"}, 
-
+    
                 {userId: userId, userName: userName, userEmail: userEmail, userStatus: userStatus}, 
-
+    
                 {userId: 4637, userName: "jo_j", userEmail: "jo_j@gmail.com", userStatus: "active"}
             ],  
         })
@@ -64,7 +64,7 @@ class EventHandlers extends React.Component {
 
                 {/* users */}
                 {users}
-
+                
             </div>
         </div>
         );
@@ -72,3 +72,4 @@ class EventHandlers extends React.Component {
 }
 
 export default EventHandlers;
+

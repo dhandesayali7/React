@@ -10,6 +10,9 @@ import Navigation from './components/Navigation';
 
 import HomePage from './pages/HomePage';
 import EventHandlers from './pages/EventHandlers';
+import FormValidation from './pages/FormValidation';
+import ClassBasedLifeCycleHooks from './pages/ClassBasedLifeCycleHooks/ClassBasedLifeCycleHooks';
+import RestApi from './pages/RestApi';
 
 const configRouting = (
   <Router>
@@ -23,6 +26,9 @@ const configRouting = (
             <Routes>
               <Route path='/' element={<HomePage />} />
               <Route path='/event-handlers' element={<EventHandlers />} />
+              <Route path='/form-validation' element={<FormValidation/>} />
+              <Route path='/class-based-life-cycle-hooks' element={<ClassBasedLifeCycleHooks />} />
+              <Route path='/rest-api' element={<RestApi />} />
             </Routes>
           </div>
       </div>
