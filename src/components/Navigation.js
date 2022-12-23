@@ -11,7 +11,10 @@ const Navigation = () => {
 
                 <NavLink className="navlinks" activeClassName to="/form-validation"> Form Validation </NavLink>
 
-                
+                <NavLink className="navlinks" activeClassName to="/class-based-life-cycle-hooks"> cB Lch</NavLink>
+
+                <NavLink className="navlinks" activeClassName to="/rest-api"> RestApi</NavLink>
+
             </div>
         </div>
     );

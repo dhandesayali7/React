@@ -10,7 +10,7 @@ import Navigation from './components/Navigation';
 
 import HomePage from './pages/HomePage';
 import EventHandlers from './pages/EventHandlers';
-import FormValidation from './pages/FormValidation';
+import FormValidation from './pages/FormValidation/FormValidation';
 import ClassBasedLifeCycleHooks from './pages/ClassBasedLifeCycleHooks/ClassBasedLifeCycleHooks';
 import RestApi from './pages/RestApi';
 

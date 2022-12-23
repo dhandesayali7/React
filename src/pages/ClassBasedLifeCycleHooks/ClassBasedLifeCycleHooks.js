@@ -9,7 +9,7 @@ const ClassBasedLifeCycleHooks = () => {
 
                 <hr />
 
-                <TodosContainer />
+               <TodosContainer />
             </div>
         </div>
     )
