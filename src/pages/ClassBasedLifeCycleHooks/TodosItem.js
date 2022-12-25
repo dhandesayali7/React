@@ -3,7 +3,7 @@ import React from "react";
 class TodosItem extends React.Component {
     
     render() {
-        const { userId, id, title, completed } = this.props.todo;
+        const {  id, title, completed } = this.props.todo;
 
         return(
             <li className="list-group-item list-group-item-action">
@@ -12,7 +12,8 @@ class TodosItem extends React.Component {
                }/>
                 <span className="me-3">{title}</span>
                 <button type="button" className="btn btn-danger" 
-                onClick={()=> this.props.deleteTodoProps(id)}>X</button>
+            onClick={()=> this.props.deleteTodoProps(id)}>Delete</button>
+                
             </li>
         );
     }

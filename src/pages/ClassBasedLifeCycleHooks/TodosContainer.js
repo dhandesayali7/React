@@ -23,7 +23,7 @@ class TodosContainer extends React.Component {
             .then(response => this.setState({todos:response.data}))
 
             }
-            handleChange = id =>{
+            handleChange = (id )=>{
                 this.setState({
                     todos:this.state.todos.map(todo =>{
                         if(todo.id === id){
@@ -35,10 +35,10 @@ class TodosContainer extends React.Component {
                 })
             }
        
-            delToda = id =>{
+            delTodo = (id) =>{
                 this.setState({
                     todos: [
-                        ...this.state.todos.filter(todo =>{
+                        ...this.state.todos.filter((todo) =>{
                             return todo.id !== id  
                         })
                     ]
