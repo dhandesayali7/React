@@ -12,7 +12,7 @@ class TodosItem extends React.Component {
                }/>
                 <span className="me-3">{title}</span>
                 <button type="button" className="btn btn-danger" 
-            onClick={()=> this.props.deleteTodoProps(id)}>Delete</button>
+            onClick={()=> this.props.deleteTodoProps(id)}>X</button>
                 
             </li>
         );
